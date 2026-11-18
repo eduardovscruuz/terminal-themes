@@ -1,6 +1,6 @@
 # Terminal no Windows
 
-> Conferido no Windows em: (pendente)
+> Conferido no Windows em: 18/11/2026 (Windows 11, PowerShell 7.7.0, oh-my-posh 33.0.0, Windows Terminal 1.25)
 
 Passo a passo para deixar um PC novo com o mesmo terminal do Mac:
 
@@ -48,10 +48,10 @@ Feche e abra o terminal, para o comando `oh-my-posh` passar a existir.
 ## 4. Fonte FiraCode Nerd Font
 
 ```powershell
-oh-my-posh font install FiraCode --user
+oh-my-posh font install FiraCode
 ```
 
-O `--user` instala só para o seu usuário, sem pedir administrador. No Windows Terminal, ela aparece como **FiraCode Nerd Font Mono**.
+Rode num terminal **normal**, não como administrador. Assim a fonte fica só para o seu usuário e não pede UAC. O oh-my-posh 33 não tem mais a opção `--user`, que dá erro. No Windows Terminal, a fonte aparece como **FiraCode Nerd Font Mono**.
 
 ## 5. Clonar este repo
 
