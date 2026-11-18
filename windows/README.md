@@ -5,7 +5,7 @@
 Passo a passo para deixar um PC novo com o mesmo terminal do Mac:
 
 ```
-╭─eduardovscruuz in D:\ecruz\repos\pessoal\terminal-themes on main ✔
+╭─eduardovscruuz in D:\ecruz\repos\projetos-pessoais\terminal-themes on main ✔
 ╰─±
 ```
 
@@ -56,7 +56,7 @@ Rode num terminal **normal**, não como administrador. Assim a fonte fica só pa
 ## 5. Clonar este repo
 
 ```powershell
-git clone https://github.com/eduardovscruuz/terminal-themes.git "D:\ecruz\repos\pessoal\terminal-themes"
+git clone https://github.com/eduardovscruuz/terminal-themes.git "D:\ecruz\repos\projetos-pessoais\terminal-themes"
 ```
 
 ## 6. Carregar o tema no PowerShell
@@ -79,7 +79,7 @@ notepad $PROFILE
 Coloque esta linha no perfil. Se já houver outra linha com `oh-my-posh init`, troque por esta:
 
 ```powershell
-oh-my-posh init pwsh --config "D:\ecruz\repos\pessoal\terminal-themes\windows\eduardo.oh-my-posh.json" | Invoke-Expression
+oh-my-posh init pwsh --config "D:\ecruz\repos\projetos-pessoais\terminal-themes\windows\eduardo.oh-my-posh.json" | Invoke-Expression
 ```
 
 Use sempre `$PROFILE` e o caminho entre aspas. Às vezes o perfil fica no OneDrive ou numa pasta com espaço, como `Documentos\PowerShell`, e um caminho digitado à mão quebra.
@@ -103,7 +103,7 @@ Abra uma janela **nova** do Windows Terminal e veja se está tudo assim:
 Para testar sem abrir um terminal novo:
 
 ```powershell
-oh-my-posh print primary --config "D:\ecruz\repos\pessoal\terminal-themes\windows\eduardo.oh-my-posh.json" --shell pwsh
+oh-my-posh print primary --config "D:\ecruz\repos\projetos-pessoais\terminal-themes\windows\eduardo.oh-my-posh.json" --shell pwsh
 ```
 
 **Pegadinha:** num terminal que já estava aberto antes da troca, a variável `POSH_CONFIG` da sessão vence o `--config` do `print`. Para testar, abra um terminal novo.
@@ -118,6 +118,6 @@ oh-my-posh print primary --config "D:\ecruz\repos\pessoal\terminal-themes\window
 
 ## Se algo der errado
 
-- **Aparece `CONFIG NOT FOUND` ou o prompt padrão do oh-my-posh:** o caminho do `--config` no `$PROFILE` não bate com o lugar do repo. Confira com `Test-Path "D:\ecruz\repos\pessoal\terminal-themes\windows\eduardo.oh-my-posh.json"`.
+- **Aparece `CONFIG NOT FOUND` ou o prompt padrão do oh-my-posh:** o caminho do `--config` no `$PROFILE` não bate com o lugar do repo. Confira com `Test-Path "D:\ecruz\repos\projetos-pessoais\terminal-themes\windows\eduardo.oh-my-posh.json"`.
 - **As letras aparecem como quadradinhos:** a fonte do passo 4 não foi instalada, ou o nome em `"face"` não bate. Confira o nome exato em **Configurações do Windows → Personalização → Fontes** e procure por "FiraCode".
 - **No terminal integrado do VS Code, as letras aparecem como quadradinhos:** ele também precisa da fonte. No `settings.json` do VS Code, coloque `"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono"`.

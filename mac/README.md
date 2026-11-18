@@ -3,7 +3,7 @@
 Passo a passo para deixar um Mac novo com o terminal assim:
 
 ```
-╭─eduardovscruuz in /Volumes/SSD/eduardovscruuz/repos/pessoal/terminal-themes on main ✔
+╭─eduardovscruuz in /Volumes/SSD/eduardovscruuz/repos/projetos-pessoais/terminal-themes on main ✔
 ╰─±
 ```
 
@@ -58,10 +58,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.
 
 ## 5. Clonar este repo
 
-O caminho padrão é `/Volumes/SSD/eduardovscruuz/repos/pessoal/terminal-themes`. É a mesma árvore do Windows, onde o repo fica em `D:\ecruz\repos\pessoal\terminal-themes`. Se quiser outro caminho, troque o `REPO` aqui e no passo 6.
+O caminho padrão é `/Volumes/SSD/eduardovscruuz/repos/projetos-pessoais/terminal-themes`. É a mesma árvore do Windows, onde o repo fica em `D:\ecruz\repos\projetos-pessoais\terminal-themes`. Se quiser outro caminho, troque o `REPO` aqui e no passo 6.
 
 ```sh
-REPO=/Volumes/SSD/eduardovscruuz/repos/pessoal/terminal-themes
+REPO=/Volumes/SSD/eduardovscruuz/repos/projetos-pessoais/terminal-themes
 mkdir -p "$(dirname "$REPO")"
 git clone https://github.com/eduardovscruuz/terminal-themes.git "$REPO"
 ```
@@ -71,7 +71,7 @@ Se o repo ficar num disco externo, o terminal só acha o tema com o disco montad
 ## 6. Ligar o tema ao oh-my-zsh
 
 ```sh
-REPO=/Volumes/SSD/eduardovscruuz/repos/pessoal/terminal-themes
+REPO=/Volumes/SSD/eduardovscruuz/repos/projetos-pessoais/terminal-themes
 ln -sf "$REPO/mac/eduardo.zsh-theme" ~/.oh-my-zsh/custom/themes/eduardo.zsh-theme
 ```
 

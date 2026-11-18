@@ -3,7 +3,7 @@
 Meu terminal, igual no Mac e no Windows:
 
 ```
-╭─eduardovscruuz in /Volumes/SSD/eduardovscruuz/repos/pessoal/terminal-themes on main ✔
+╭─eduardovscruuz in /Volumes/SSD/eduardovscruuz/repos/projetos-pessoais/terminal-themes on main ✔
 ╰─±
 ```
 
