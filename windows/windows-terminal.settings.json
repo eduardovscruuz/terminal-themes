@@ -1,0 +1,40 @@
+{
+  "schemes": [
+    {
+      "background": "#0B1119",
+      "black": "#21222C",
+      "blue": "#B37DFF",
+      "brightBlack": "#6C717D",
+      "brightBlue": "#D6ACFF",
+      "brightCyan": "#A4FFFF",
+      "brightGreen": "#58FF88",
+      "brightPurple": "#FF82DA",
+      "brightRed": "#FF5D5D",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFFA5",
+      "cursorColor": "#F8F8F2",
+      "cyan": "#79E6FF",
+      "foreground": "#F8F8F2",
+      "green": "#3AFF6C",
+      "name": "Dracula VS Code",
+      "purple": "#F85FB6",
+      "red": "#FF4444",
+      "selectionBackground": "#44475A",
+      "white": "#F8F8F2",
+      "yellow": "#F1FA8C"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Dracula VS Code",
+      "font": {
+        "face": "FiraCode Nerd Font Mono",
+        "weight": "medium",
+        "size": 11
+      },
+      "cursorShape": "bar",
+      "padding": "10",
+      "intenseTextStyle": "bright"
+    }
+  }
+}
